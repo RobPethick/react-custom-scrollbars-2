@@ -103,5 +103,5 @@ class CustomScrollbars extends Component {
 ```
 
 Check out these examples for some inspiration:
-* [ColoredScrollbars](https://github.com/malte-wessel/react-custom-scrollbars/tree/master/examples/simple/components/ColoredScrollbars)
-* [ShadowScrollbars](https://github.com/malte-wessel/react-custom-scrollbars/tree/master/examples/simple/components/ShadowScrollbars)
+* [ColoredScrollbars](https://github.com/RobPethick/react-custom-scrollbars-2/tree/master/examples/simple/components/ColoredScrollbars)
+* [ShadowScrollbars](https://github.com/RobPethick/react-custom-scrollbars-2/tree/master/examples/simple/components/ShadowScrollbars)
