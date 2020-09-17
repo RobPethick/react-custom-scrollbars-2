@@ -283,7 +283,8 @@ export default class Scrollbars extends Component {
     }
 
     handleWindowResize() {
-        this.update();
+        getScrollbarWidth(false);
+        this.forceUpdate();
     }
 
     handleHorizontalTrackMouseDown(event) {
