@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Scrollbars } from 'react-custom-scrollbars';
+import { Scrollbars } from 'react-custom-scrollbars-2';
 import { SpringSystem, MathUtil } from 'rebound';
 
 export default class SpringScrollbars extends Component {
