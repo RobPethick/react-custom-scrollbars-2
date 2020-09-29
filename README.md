@@ -15,7 +15,7 @@ react-custom-scrollbars
 * no extra stylesheets
 * well tested, 100% code coverage
 
-**[Demos](http://malte-wessel.github.io/react-custom-scrollbars/) · [Documentation](https://github.com/RobPethick/react-custom-scrollbars-2/tree/master/docs)**
+**[Demos](http://robpethick.github.io/react-custom-scrollbars-2/) · [Documentation](https://github.com/RobPethick/react-custom-scrollbars-2/tree/master/docs)**
 
 ## Installation
 ```bash

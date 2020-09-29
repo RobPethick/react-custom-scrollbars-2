@@ -26,7 +26,7 @@
     "react",
     "custom"
   ],
-  "author": "Malte Wessel",
+  "author": "Rob Pethick",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/RobPethick/react-custom-scrollbars-2/issues"
