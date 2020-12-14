@@ -11,7 +11,7 @@ The `<Scrollbars>` component consists of the following elements:
 Each element can be **rendered individually** with a function that you pass to the component. Say, you want use your own `className` for each element:
 
 ```javascript
-import { Scrollbars } from 'react-custom-scrollbars';
+import { Scrollbars } from 'react-custom-scrollbars-2';
 
 class CustomScrollbars extends Component {
   render() {
@@ -45,7 +45,7 @@ This is because we need to pass some default `styles` down to the element in ord
 If you are working with **inline styles**, you could do something like this:
 
 ```javascript
-import { Scrollbars } from 'react-custom-scrollbars';
+import { Scrollbars } from 'react-custom-scrollbars-2';
 
 class CustomScrollbars extends Component {
   render() {
@@ -66,7 +66,7 @@ class CustomScrollbars extends Component {
 If you want to change the appearance in respond to the scrolling position, you could do that like:
 
 ```javascript
-import { Scrollbars } from 'react-custom-scrollbars';
+import { Scrollbars } from 'react-custom-scrollbars-2';
 class CustomScrollbars extends Component {
     constructor(props, context) {
         super(props, context)

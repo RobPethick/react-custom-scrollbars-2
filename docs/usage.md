@@ -5,7 +5,7 @@
 The `<Scrollbars>` component works out of the box with some default styles. The only thing you need to care about is that the component has a `width` and `height`:
 
 ```javascript
-import { Scrollbars } from 'react-custom-scrollbars';
+import { Scrollbars } from 'react-custom-scrollbars-2';
 
 class App extends Component {
   render() {
@@ -31,7 +31,7 @@ Also don't forget to set the `viewport` meta tag, if you want to **support mobil
 There are several events you can listen to:
 
 ```javascript
-import { Scrollbars } from 'react-custom-scrollbars';
+import { Scrollbars } from 'react-custom-scrollbars-2';
 
 class App extends Component {
   render() {
@@ -60,7 +60,7 @@ class App extends Component {
 You can activate auto-hide by setting the `autoHide` property.
 
 ```javascript
-import { Scrollbars } from 'react-custom-scrollbars';
+import { Scrollbars } from 'react-custom-scrollbars-2';
 
 class App extends Component {
   render() {
@@ -83,7 +83,7 @@ class App extends Component {
 
 You can activate auto-height by setting the `autoHeight` property.
 ```javascript
-import { Scrollbars } from 'react-custom-scrollbars';
+import { Scrollbars } from 'react-custom-scrollbars-2';
 
 class App extends Component {
   render() {
@@ -105,7 +105,7 @@ class App extends Component {
 If your app runs on both client and server, activate the `universal` mode. This will ensure that the initial markup on client and server are the same:
 
 ```javascript
-import { Scrollbars } from 'react-custom-scrollbars';
+import { Scrollbars } from 'react-custom-scrollbars-2';
 
 class App extends Component {
   render() {
