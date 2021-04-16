@@ -15,7 +15,7 @@ react-custom-scrollbars-2
 * no extra stylesheets
 * well tested, 100% code coverage
 
-**[Demos](http://malte-wessel.github.io/react-custom-scrollbars/) · [Documentation](https://github.com/RobPethick/react-custom-scrollbars-2/tree/master/docs)**
+**[Demos](https://robpethick.github.io/react-custom-scrollbars-2/) · [Documentation](https://github.com/RobPethick/react-custom-scrollbars-2/tree/master/docs)**
 
 ## Quick note
 This repo is due to the original (fantastic) react-custom-scrollbars package going a little stale and we needed a handful of bug fixes which will be managed here.
@@ -27,7 +27,7 @@ npm install react-custom-scrollbars-2 --save
 
 This assumes that you’re using [npm](http://npmjs.com/) package manager with a module bundler like [Webpack](http://webpack.github.io) or [Browserify](http://browserify.org/) to consume [CommonJS modules](http://webpack.github.io/docs/commonjs.html).
 
-If you don’t yet use [npm](http://npmjs.com/) or a modern module bundler, and would rather prefer a single-file [UMD](https://github.com/umdjs/umd) build that makes `ReactCustomScrollbars` available as a global object, you can grab a pre-built version from [unpkg](https://unpkg.com/react-custom-scrollbars@3.0.1/dist/react-custom-scrollbars.js). We *don’t* recommend this approach for any serious application, as most of the libraries complementary to `react-custom-scrollbars-2` are only available on [npm](http://npmjs.com/).
+If you don’t yet use [npm](http://npmjs.com/) or a modern module bundler, and would rather prefer a single-file [UMD](https://github.com/umdjs/umd) build that makes `ReactCustomScrollbars` available as a global object, you can grab a pre-built version from [unpkg](https://unpkg.com/react-custom-scrollbars-2@4.3.0/dist/react-custom-scrollbars.js). We *don’t* recommend this approach for any serious application, as most of the libraries complementary to `react-custom-scrollbars-2` are only available on [npm](http://npmjs.com/).
 
 ## Usage
 
