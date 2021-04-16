@@ -18,7 +18,7 @@ react-custom-scrollbars-2
 **[Demos](https://robpethick.github.io/react-custom-scrollbars-2/) · [Documentation](https://github.com/RobPethick/react-custom-scrollbars-2/tree/master/docs)**
 
 ## Quick note
-This repo is due to the original (fantastic) react-custom-scrollbars package going a little stale and we needed a handful of bug fixes which will be managed here.
+This repo is due to the original (fantastic) [`react-custom-scrollbars`](https://www.npmjs.com/package/react-custom-scrollbars) package going a little stale and we needed a handful of bug fixes which will be managed here.
 
 ## Installation
 ```bash
