@@ -190,24 +190,24 @@ export default class Scrollbars extends Component {
         this.view.scrollTop = top;
     }
 
-    scrollToLeft() {
+    scrollToLeft(scrollBehavior = 'auto') {
         if (!this.view) return;
-        this.view.scrollLeft = 0;
+        this.view.scrollTo({ left: 0, behavior: scrollBehavior });
     }
 
-    scrollToTop() {
+    scrollToTop(scrollBehavior = 'auto') {
         if (!this.view) return;
-        this.view.scrollTop = 0;
+        this.view.scrollTo({ top: 0, behavior: scrollBehavior });
     }
 
-    scrollToRight() {
+    scrollToRight(scrollBehavior = 'auto') {
         if (!this.view) return;
-        this.view.scrollLeft = this.view.scrollWidth;
+        this.view.scrollTo({ left: this.view.scrollWidth, behavior: scrollBehavior });
     }
 
-    scrollToBottom() {
+    scrollToBottom(scrollBehavior = 'auto') {
         if (!this.view) return;
-        this.view.scrollTop = this.view.scrollHeight;
+        this.view.scrollTo({ top: this.view.scrollHeight, behavior: scrollBehavior });
     }
 
     addListeners() {
