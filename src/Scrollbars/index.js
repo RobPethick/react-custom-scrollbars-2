@@ -180,14 +180,14 @@ export default class Scrollbars extends Component {
         return offset / (trackHeight - thumbHeight) * (scrollHeight - clientHeight);
     }
 
-    scrollLeft(left = 0) {
+    scrollLeft(left = 0, scrollBehavior = 'auto') {
         if (!this.view) return;
-        this.view.scrollLeft = left;
+        this.view.scrollTo({ left: left, behavior: scrollBehavior });
     }
 
-    scrollTop(top = 0) {
+    scrollTop(top = 0, scrollBehavior = 'auto') {
         if (!this.view) return;
-        this.view.scrollTop = top;
+        this.view.scrollTo({ top: top, behavior: scrollBehavior });
     }
 
     scrollToLeft(scrollBehavior = 'auto') {
