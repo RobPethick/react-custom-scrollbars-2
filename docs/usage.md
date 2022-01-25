@@ -23,7 +23,7 @@ Also don't forget to set the `viewport` meta tag, if you want to **support mobil
 ```html
 <meta
   name="viewport"
-  content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+  content="width=device-width, initial-scale=1.0"/>
 ```
 
 ## Events
