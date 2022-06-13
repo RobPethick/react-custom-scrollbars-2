@@ -1,6 +1,6 @@
 import raf, { cancel as caf } from 'raf';
 import css from 'dom-css';
-import { Component, createElement, cloneElement } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 import isString from '../utils/isString';
@@ -31,7 +31,7 @@ import {
     renderThumbVerticalDefault
 } from './defaultRenderElements';
 
-export default class Scrollbars extends Component {
+export default class Scrollbars extends React.Component {
 
     constructor(props, ...rest) {
         super(props, ...rest);
@@ -570,24 +570,24 @@ export default class Scrollbars extends Component {
             })
         };
 
-        return createElement(tagName, { ...props, style: containerStyle, ref: (ref) => { this.container = ref; } }, [
-            cloneElement(
+        return React.createElement(tagName, { ...props, style: containerStyle, ref: (ref) => { this.container = ref; } }, [
+            React.cloneElement(
                 renderView({ style: viewStyle }),
                 { key: 'view', ref: (ref) => { this.view = ref; } },
                 children
             ),
-            cloneElement(
+            React.cloneElement(
                 renderTrackHorizontal({ style: trackHorizontalStyle }),
                 { key: 'trackHorizontal', ref: (ref) => { this.trackHorizontal = ref; } },
-                cloneElement(
+                React.cloneElement(
                     renderThumbHorizontal({ style: thumbHorizontalStyleDefault }),
                     { ref: (ref) => { this.thumbHorizontal = ref; } }
                 )
             ),
-            cloneElement(
+            React.cloneElement(
                 renderTrackVertical({ style: trackVerticalStyle }),
                 { key: 'trackVertical', ref: (ref) => { this.trackVertical = ref; } },
-                cloneElement(
+                React.cloneElement(
                     renderThumbVertical({ style: thumbVerticalStyleDefault }),
                     { ref: (ref) => { this.thumbVertical = ref; } }
                 )
