@@ -27,11 +27,11 @@ export interface ScrollbarProps extends React.HTMLProps<Scrollbars> {
     onScrollStop?: () => void;
     onUpdate?: (values: positionValues) => void;
 
-    renderView?: React.StatelessComponent<any>;
-    renderTrackHorizontal?: React.StatelessComponent<any>;
-    renderTrackVertical?: React.StatelessComponent<any>;
-    renderThumbHorizontal?: React.StatelessComponent<any>;
-    renderThumbVertical?: React.StatelessComponent<any>;
+    renderView?: React.ComponentType<any>;
+    renderTrackHorizontal?: React.ComponentType<any>;
+    renderTrackVertical?: React.ComponentType<any>;
+    renderThumbHorizontal?: React.ComponentType<any>;
+    renderThumbVertical?: React.ComponentType<any>;
 
     tagName?: string;
     hideTracksWhenNotNeeded?: boolean;
